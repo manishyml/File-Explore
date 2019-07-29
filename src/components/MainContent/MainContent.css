@@ -1,0 +1,63 @@
+.mainContent_parent{
+   flex-basis: 92%;
+   padding: 33px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+}
+.mainContent_parent .popup{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   z-index: 6;
+   background-color: white;
+}
+.mainContent_parent .folder_container{
+   text-align: center;
+   height: 130px;
+   width: 115px;
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: column;
+   margin-right: 48px;
+   margin-bottom: 20px;
+   padding: 10px 0 10px 0;
+   border-radius: 8px;
+   cursor: pointer;
+   background-color: white;
+   position: relative;
+   transition: background-color .1s ease-in-out;
+}
+.mainContent_parent .folder_container:hover{
+   background-color: #E6F5FF;
+}
+.mainContent_parent .folder_container .folder_icon_container{
+   position: relative;
+   text-align: center;
+   flex-basis: 78%;
+}
+.mainContent_parent .folder_container .folder_icon_container .folder_icon{
+   padding: 12px 23px 9px 22px;
+}
+.mainContent_parent .folder_container .folder_icon_container .folder_text{
+   color:white;
+   position: absolute;
+   top: 70%;
+   left: 50%;
+   font-size: 14px;
+   font-weight: bold;
+   transform: translate(-50%,-50%);
+
+}
+.mainContent_parent .folder_container .file_name{
+   font-size: 16px;
+   color: #535B62;
+}
+.mainContent_parent .addFile_container{
+   width: 96px;
+   height: 113px;
+   text-align: center;
+   margin: 9px 0 0 14px;
+   cursor: pointer;
+}

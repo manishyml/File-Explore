@@ -1,0 +1,28 @@
+.sideMenu_parent{
+   width: 100%;
+}
+.sideMenu_parent .sideMenu_heading{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #EEEFF1;
+   padding-left: 32px;
+}
+ .sideMenu_heading .sideMenu_text{
+   padding: 12px 0 12px 0;
+   flex-basis: 80%;
+    cursor: pointer;
+}
+.arrow_icon{
+   margin-right: 24px;
+}
+.sideMenu_parent .sideMenu_container .menuItem{
+   padding: 12px 0 12px 16px;
+   margin: 0 0 0 32px;
+   border-left: 1px solid #EEEFF1;
+}
+.sideMenu_parent .sideMenu_container .menuItem .item_container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}

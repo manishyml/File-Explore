@@ -1,0 +1,9 @@
+.sidedrawer_parent{
+   width: 25%;
+   height: 100%;
+   background-color: #F9FAFC;
+}
+.sidedrawer_parent .root_text{
+   padding: 32px 0 15px 32px;
+   cursor: pointer;
+}

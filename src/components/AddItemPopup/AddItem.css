@@ -1,0 +1,83 @@
+
+
+.addItem_parent{
+   padding: 24px 48px 48px 48px;
+   border:1px solid #DDE0E4;
+   border-radius: 8px;
+   text-align: center;
+   font-size: 14px;
+   color: #2F363F;
+   position: relative;
+   width: 319px;
+   box-shadow: 0 16px 64px 0 rgba(0,0,0,.08);
+}
+.createNew{
+   font-size: 18px;
+}
+.file_type{
+   border: 1px solid #DDE0E4;
+   border-radius: 8px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   overflow: hidden;
+   margin-top: 16px;
+   margin-bottom: 32px;
+}
+
+.file_type .file{
+   border-right: 1px solid #DDE0E4;
+   padding: 8px 24px;
+   flex-basis:50%;
+   cursor: pointer;
+}
+.file_type .folder{
+   padding: 8px 24px;
+   /* background-color: #4AB7FF;
+   color:white; */
+   flex-basis: 50%;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+   cursor: pointer;
+
+}
+.active{
+   background-color: #4AB7FF;
+   color:white
+}
+.addItem_parent .fields_container{
+   color: #AFB2B6;
+   display: flex;;
+   flex-direction: column;
+}
+.addItem_parent .fields_container .error_container{
+   color: red;
+   font-size: 12px;
+   margin-top: 5px;
+}
+.addItem_parent .fields_container input{
+   margin-top: 16px;
+   border: 1px solid #DDE0E4;
+   border-radius: 8px;
+   padding: 11px 0 11px 16px;
+   outline: none;
+}
+.create_button{
+   color:white;
+   margin-top: 24px;
+   background-color: #4AB7FF;
+   border: 1px solid #4AB7FF;
+   border-radius: 8px;
+   padding: 11px 0;
+   cursor: pointer;
+}
+.addItem_parent .fields_container input::placeholder{
+   color: #AFB2B6;
+}
+.addItem_parent .cross_image{
+   position: absolute;
+   top: 5%;
+   right: 7%;
+   opacity: .5;
+   cursor: pointer;
+}

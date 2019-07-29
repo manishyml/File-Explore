@@ -1,0 +1,27 @@
+.popup_parent{
+   width: 138px;
+   font-size: 16px;
+   border-radius: 8px;
+   border: 1px solid #DDE0E4;
+   box-shadow: 0 0 24px 0 rgba(0, 0, 0, .05);
+   position: absolute;
+   z-index: 5;
+   top: 88px;
+   left: 68px;
+   text-align: left;
+   background-color: white;
+}
+.popup_parent .Open_Item{
+   padding: 12px 0 12px 24px;
+}
+.popup_parent .Get_Info{
+   padding: 12px 0 12px 24px;
+   color: #535B62;
+}
+.popup_parent .Delete_Item{
+   padding: 12px 0 12px 24px;
+   color: #FF5942;
+}
+.Open_Item:hover,.Get_Info:hover, .Delete_Item:hover{
+   background-color: #EEEFF1;
+}
